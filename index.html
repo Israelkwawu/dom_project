@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jumia</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Israel Kwawu">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/script.js" defer></script>
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <nav>
+                    <div>               
+                         <img src="img/logo.png" alt="">
+                    </div>
+                    <div>
+                        <span id="badge">0</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20"  aria-hidden="true" focusable="false">
+                            <circle cx="9" cy="20" r="2"></circle><circle cx="16" cy="20" r="2">
+                            </circle>
+                            <path d="M21,5H5.665L4.978,1.79A1,1,0,0,0,4,1H1A1,1,0,0,0,1,3H3.191L6.022,16.21a0.962,0.962,0,0,0,.064.159,1.015,1.015,0,0,0,.063.155,0.978,0.978,0,0,0,.133.153,1.006,1.006,0,0,0,.088.1,1,1,0,0,0,.185.105,0.975,0.975,0,0,0,.107.06A0.994,0.994,0,0,0,7,17H18a1,1,0,0,0,.958-0.713l3-10A1,1,0,0,0,21,5Zm-2.244,5H16V7h3.656ZM7.819,15l-0.6-3H9v3H7.819ZM11,12h3v3H11V12Zm0-2V7h3v3H11ZM9,7v3H6.82L6.22,7H9Zm8.256,8H16V12h2.156Z">
+                            </path>
+                        </svg>
+                        <button id="addProductForm">Add Product</button>
+                    </div>
+                </nav>
+                <section>
+                    <ul>
+                        <li>Home</li>
+                        <li>Product</li>
+                    </ul>
+                </section>
+            </header>
+            <div id="page-title">
+                <h1>Product</h1>
+                <hr><hr><hr>
+            </div>
+            <main>
+
+                
+            </main>
+            <div id="see-all" style="padding: 50px; text-align: center;">
+                <!-- <button>See All</button> -->
+            </div>
+            <div id="light-box" class="invisible">
+                <span id="close">&times;</span>
+
+                <form>
+                    <h2>Add Product</h2>
+                    <input type="text" placeholder="Enter Product Title">
+                    <input type="number" min="1" step="0.01" placeholder="Enter Product Price">
+                    <input type="number" min="0" placeholder="Enter Product Stock">
+                    <input type="text" placeholder="Enter Product Image URL">
+                    <textarea  placeholder="Enter Product Description" ></textarea>
+                    <input type="submit" value="Submit">
+                    <p>NB: Use images in the project as image url without the extention.</p>
+
+                </form>
+
+            </div>
+            <footer>
+                &copy; 2021 | All Rights Reserved.
+            </footer>
+        </div>
+    </body>
+</html>
